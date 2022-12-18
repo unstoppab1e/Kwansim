@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "646934229682",
+    "project_id": "kwansim-pro",
+    "storage_bucket": "kwansim-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646934229682:android:0321d37289bfd2ce9f0fab",
+        "android_client_info": {
+          "package_name": "com.kr.kwansim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646934229682-vno2vbb90bl8p2hcddpn3rej42drkqmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kr.kwansim",
+            "certificate_hash": "765e2c7482d279a9358387c3d963745d823b862a"
+          }
+        },
+        {
+          "client_id": "646934229682-7hldpl4mtmrubci05ta2r94q0299sgro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxGrANkXJgTgGyOvrTK5I_VlnHo2w8nGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646934229682-7hldpl4mtmrubci05ta2r94q0299sgro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

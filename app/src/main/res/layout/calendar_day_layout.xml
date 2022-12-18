@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cal_layout"
+    android:layout_width="45.5dp"
+    android:layout_height="75dp"
+    android:layout_margin="2dp"
+    android:gravity="center"
+    android:background ="@drawable/day_gradient_blank"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cal_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/notosans_regular"
+        android:includeFontPadding="false"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/calendar_day_style"
+        android:textColor="@color/black"
+        android:text="1"
+    />
+
+    <TextView
+        android:id="@+id/cal_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/notosans_regular"
+        android:includeFontPadding="false"
+        android:textColor="@color/black"
+        android:textAppearance="@style/calendar_date_style"
+        android:text="1"
+        />
+
+</LinearLayout>

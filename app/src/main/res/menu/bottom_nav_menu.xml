@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/page_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_bottom_home"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/page_tv"
+        android:enabled="true"
+        android:icon="@drawable/ic_bottom_density_medium"
+        android:title="나의 어항"/>
+
+    <item
+        android:id="@+id/page_calendar"
+        android:enabled="true"
+        android:icon="@drawable/ic_bottom_person"
+        android:title="설정"/>
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_main"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_main_shared1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/home"
+        android:drawablePadding="-20dp"
+        android:fontFamily="@font/notosans_bold"
+        android:includeFontPadding="false"
+        android:textAppearance="@style/bottom_text_1"
+    />
+
+    <Button
+        android:id="@+id/btn_main_shared2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawablePadding="-20dp"
+        android:fontFamily="@font/notosans_bold"
+        android:includeFontPadding="false"
+        android:drawableTop="@drawable/fi"
+        android:textAppearance="@style/bottom_text_1"
+    />
+
+    <Button
+        android:id="@+id/btn_main_shared3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/acc"
+        android:drawablePadding="-20dp"
+        android:fontFamily="@font/notosans_bold"
+        android:includeFontPadding="false"
+        android:textAppearance="@style/bottom_text_1"
+        />
+
+</LinearLayout>

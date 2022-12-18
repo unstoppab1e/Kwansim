@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingTop="40dp"
+    tools:context=".ui.myfish.ReActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back_ic"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/allower_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="반복주기 설정하기"
+                android:fontFamily="@font/notosans_bold"
+                android:includeFontPadding="false"
+                android:textAppearance="@style/common_title_style" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/notosans_regular"
+            android:includeFontPadding="false"
+            android:textAppearance="@style/fish_add_text_style"
+            android:text="환수를 반복할 주기와 횟수를 설정해주세요." />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:weightSum="1"
+            android:paddingStart="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/b1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_input"
+                android:ems="10"
+                android:gravity="center"
+                android:padding="15dp"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                android:textAppearance="@style/fish_add_input_style"
+                tools:ignore="RtlCompat" />
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dialog"
+                android:background="@drawable/ic_arrow_back_ios"
+                android:weightSum="0.3" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_input"
+                android:ems="10"
+                android:gravity="bottom"
+                android:layout_marginStart="100dp"
+                android:text="주"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                android:textAppearance="@style/fish_add_text_style" />
+
+            <TextView
+                android:id="@+id/b2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_input"
+                android:ems="10"
+                android:padding="15dp"
+                android:gravity="center"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                android:layout_marginStart="140dp"
+                android:textAppearance="@style/fish_add_input_style" />
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="30dp"
+                android:spinnerMode="dialog"
+                android:background="@drawable/ic_arrow_back_ios"
+                android:weightSum="0.3" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_input"
+                android:ems="10"
+                android:gravity="bottom"
+                android:layout_marginStart="240dp"
+                android:text="회"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                android:textAppearance="@style/fish_add_text_style" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/fish_add_text_style"
+            android:text="환수를 할 요일을 선택해주세요." />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="7"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/ts1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="월"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                android:textColor="#6B6777"
+                />
+            <TextView
+                android:id="@+id/ts2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="화"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#6B6777"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                />
+            <TextView
+                android:id="@+id/ts3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="수"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#6B6777"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                />
+            <TextView
+                android:id="@+id/ts4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="목"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#6B6777"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                />
+            <TextView
+                android:id="@+id/ts5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="금"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#6B6777"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                />
+            <TextView
+                android:id="@+id/ts6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="토"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#8DB3ED"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                />
+            <TextView
+                android:id="@+id/ts7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="일"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#ED8D8D"
+                android:fontFamily="@font/notosans_regular"
+                android:includeFontPadding="false"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <Button
+            android:id="@+id/btn_hwansu_add"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textAppearance="@style/common_btn_text_style"
+            android:background="@drawable/submit_btn"
+            android:text="완료" />
+
+    </LinearLayout>
+</FrameLayout>
